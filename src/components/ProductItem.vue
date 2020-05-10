@@ -20,6 +20,8 @@ export default {
         background: #f3f3f3f3;
         padding: 10px;
         border-bottom: 1px #999999 solid;
+        width: 90%;
+        margin: auto;
     }
 
     .del {
