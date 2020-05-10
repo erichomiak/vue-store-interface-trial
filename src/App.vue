@@ -1,8 +1,11 @@
 <template>
   <div id="app">
     <Header />
-    <AddProduct v-on:add-product="AddProduct" />
+    
     <Products v-bind:products="products" v-on:del-product="deleteProduct" />
+    <br>
+    <AddProduct v-on:add-product="AddProduct" />
+    
   </div>
 </template>
 
